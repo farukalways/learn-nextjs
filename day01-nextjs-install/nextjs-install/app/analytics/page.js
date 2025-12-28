@@ -1,7 +1,9 @@
-const Home = () => {
+import Button from "../components/Button";
+
+const Analytics = () => {
   return (
     <div>
-      <h2 class="text-3xl mb-5">Home</h2>
+      <h2 class="text-3xl mb-5">Analytics</h2>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint culpa
@@ -9,8 +11,10 @@ const Home = () => {
         obcaecati cumque fuga quo praesentium rerum. Ratione minima quas impedit
         laboriosam officia.
       </p>
+
+      <Button>Go to Home</Button>
     </div>
   );
 };
 
-export default Home;
+export default Analytics;

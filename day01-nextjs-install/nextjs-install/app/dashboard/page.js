@@ -1,7 +1,9 @@
-const Home = () => {
+import React from "react";
+
+const Dashboard = () => {
   return (
     <div>
-      <h2 class="text-3xl mb-5">Home</h2>
+      <h2 class="text-3xl mb-5">Dashboard</h2>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint culpa
@@ -13,4 +15,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Dashboard;

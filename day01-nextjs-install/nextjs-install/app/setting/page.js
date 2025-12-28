@@ -1,7 +1,7 @@
-const Home = () => {
+const Setting = () => {
   return (
     <div>
-      <h2 class="text-3xl mb-5">Home</h2>
+      <h2 class="text-3xl mb-5">Setting</h2>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint culpa
@@ -13,4 +13,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Setting;
